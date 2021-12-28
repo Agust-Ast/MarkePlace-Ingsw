@@ -1,0 +1,130 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.body-background{
+    background-color: #F0F3F5;
+}
+.previo{
+    color: #000000;
+    font-weight: bold;
+    border-radius: 30px 0px 0px 30px;
+    background-color: transparent;
+}
+.carrusel{
+    background-color: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.siguiente{
+    color: #000000;
+    font-weight: bold;
+    background-color: transparent;
+}
+.card-header{
+    border: solid rgba(255, 255, 255, 0.5) 1px;
+    background-color: rgba(255, 255, 255, 0.301);
+    border-radius: 10px 10px 10px 10px ;
+    color: #967D69;
+    min-height: 250px;
+    width: 430px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    backdrop-filter: blur(20px);
+}
+.card-title-carrusel{
+    border-bottom: solid #000000 2px;
+    padding-bottom: 4px;
+}
+.card-tienda{
+    max-width: 300px;
+    max-height: 300px;
+    transition: clip-path 2s;
+    clip-path: circle(70.7% at 50% 50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-radius: 500px;
+}
+.card-tienda:hover{
+    clip-path: circle(45% at 50% 50%);
+    transition: clip-path 2s;
+}
+
+.p-titulo-big{
+    font-family: 'Pacifico', cursive;
+    font-size: 100px;
+    color: #442220;
+}
+.p-titulo-medium{
+    font-family: 'Pacifico', cursive;
+    font-size: 70px;
+}
+.p-titulo-small{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    color: #442220;
+}
+.img-carrusel{
+    width: 200px;
+    height: 200px;
+}
+
+.img-card-tienda:hover{
+    clip-path: circle(0 at 50% 50%);
+    transition: clip-path 1.5s;
+}
+.img-card-tienda{
+    color: #ffffff;
+    background-color: #ffffff;
+    z-index: 1;
+    clip-path: circle(41.9% at 50% 50%);
+    transition: clip-path 1.5s;
+
+}
+.p-overlay{
+    font-family: 'Concert One', cursive;
+    font-size: 45px;
+    font-weight: bold;
+    color: #442220;
+}
+.p-overlay-small{
+    font-family: 'Concert One', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    color: #442220;
+}
+.p-overlay-tiny{
+    font-family: 'Concert One', cursive;
+    font-size: 15px;
+    font-weight: bold;
+    color: #442220;
+}
+.img-perfil{
+    clip-path: circle(41.9% at 50% 50%);
+    border-radius: 100px;
+    border: solid #ffffff 2px;
+}
+.img-perfil-big{
+    
+    border: solid #000000 2px;
+    width: 200px;
+    height: 200px;
+}
+.o{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border: solid rgba(255, 255, 255, 0.5) 2px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+}
+.container-user{
+    border: solid rgba(255, 255, 255, 0.5) 1px;
+    background-color: rgba(255, 255, 255, 0.301);
+    border-radius: 10px 10px 10px 10px ;
+    color: #967D69;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    backdrop-filter: blur(20px);
+}
